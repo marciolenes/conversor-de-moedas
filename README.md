@@ -1,5 +1,5 @@
-##  Um conversor de moedas
-### Projeto de um conversor de moedas: de Real para Euro ou Dolar
+##  Um conversor de moedas [Real ---> Euro ou Dólar]
+### Projeto realizado seguindo as aulas do curso de "HTML, CSS e JS na prática" da [Udemy](https://www.udemy.com/course/html5-css3-e-javascript-na-pratica)
 <br>
 <p float="center">
   <img src="screenshot.do.projeto.png"></img><p>
@@ -19,4 +19,4 @@
 
 ### Visualização do projeto: <hr>
 
-- [Conversor de Moedas](https://bistro-do-marcio.netlify.app/)
+- [Conversor de Moedas](https://udemy-conversor-de-moedas.netlify.app/)
