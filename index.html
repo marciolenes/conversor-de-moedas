@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--DATA: 13/02/23-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <script src="js/script.js" defer></script>  
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moedas</h1>
+    </header>
+    <main>
+        <form id="form"> <!-- FORMULARIO -->
+            <section class="inputs-container"> <!-- SEÇÃO COM 2 DIVS-->
+                
+                <div class="form-group">
+                    <label for="value-reral">Valor a ser convertido (R$)</label>
+                    <input type="number" placeholder="R$20,00" id="value-real" name="value-real" max="1000000">
+                </div>
+
+                <div class="form-group">
+                    <label for="currency">Escolha a moeda</label>
+                    <select id="currency">
+                        <option value="">Selecione...</option>
+                        <option value="eur">Euro</option>
+                        <option value="dol">Dólar</option>
+                    </select>
+                </div>
+            </section>
+                <button type="submit">Converter</button>
+        </form> <!-- FIM FORMULARIO -->
+            <h2 id="result"></h2>
+    </main>
+    
+    <footer>
+        <span>
+            &copy; Marcio Leñes, 2023. Todos os direitos Reservados.
+        </span>
+    </footer>
+</body>
+</html>

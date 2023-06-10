@@ -1,0 +1,79 @@
+header{
+    width: 100%;
+    background-color: #5aba8d;
+    padding: 20px;
+}
+
+header h1{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+main{
+    width: 60%;                                                     /* para NÃO OCUPAR TODA A TELA*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FORMULÁRIO */
+form{
+    width: 100%;                                                      /* ocupar 100% do espaço disponível para o formulário*/
+    margin-bottom: 12%;                                               /* afastar 12% do H2*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SECTION */
+.inputs-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;                                      /* manter um do lado um do outro*/
+    margin-bottom: 8%;                                                  /* distanciar 8% do botão*/
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    color: #333;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* BUTTON */
+form button{
+    background-color: #5aba8d;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #fff;
+    color: #5aba8d;
+}
+
+footer{
+    width: 100%;
+    background-color: #5aba8d;
+    padding: 10px;
+    text-align: center;
+}
+
+footer span{
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
